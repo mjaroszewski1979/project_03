@@ -1,0 +1,43 @@
+
+body {
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%; 
+
+}
+
+
+.bg {
+    background-color: lightslategrey;
+    opacity: 0.9;
+}
+
+.form-container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    opacity: 0.9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px #000;
+}
+
+.card-title {
+    
+    color: white;
+    text-decoration-style: none;
+  }
+h7 {
+    color: black;
+  }
+
+.text-muted {
+      color: white !important;
+  }
+
+.card-img {
+    box-shadow: 0px 0px 7px 0px #000;
+  }
+
+

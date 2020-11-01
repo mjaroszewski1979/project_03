@@ -1,0 +1,156 @@
+{% extends 'dojima_base.html' %}
+
+{% block title %}
+<title>Dojima</title>
+{% endblock title %}
+
+
+{% block jumbotron %}
+
+{% if 'op1' in options %}
+<div class="container p-3">
+  <h3 style="text-align: center;">This is only hypothetical portfolio exercise</h3>
+  <hr style="background-color: black;">
+  <table class="table table-hover table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Market</th>
+        <th scope="col">Share of portfolio</th>
+        <th scope="col">ETF name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Stocks</td>
+        <td>80%</td>
+        <td>MSCI World Index Futures</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Gold</td>
+        <td>5%</td>
+        <td>GLD</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Bonds</td>
+        <td>5%</td>
+        <td>Vanguard Bond Index Funds</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Real Estate</td>
+        <td>5%</td>
+        <td>Dow Jones Real Estate Futures</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Currency</td>
+        <td>5%</td>
+        <td>US Dollar/USDX</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+{% elif 'op2' in options %}
+<div class="container p-3">
+  <h3 style="text-align: center;">This is only hypothetical portfolio exercise</h3>
+  <hr style="background-color: black;">
+  <table class="table table-hover table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Market</th>
+        <th scope="col">Share of portfolio</th>
+        <th scope="col">ETF name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Stocks</td>
+        <td>50%</td>
+        <td>MSCI World Index Futures</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Gold</td>
+        <td>15%</td>
+        <td>GLD</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Bonds</td>
+        <td>15%</td>
+        <td>Vanguard Bond Index Funds</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Real Estate</td>
+        <td>10%</td>
+        <td>Dow Jones Real Estate Futures</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Currency</td>
+        <td>10%</td>
+        <td>US Dollar/USDX</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+{% elif 'op3' in options %}
+<div class="container p-3">
+  <h3 style="text-align: center;">This is only hypothetical portfolio exercise</h3>
+  <hr style="background-color: black;">
+  <table class="table table-hover table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Market</th>
+        <th scope="col">Share of portfolio</th>
+        <th scope="col">ETF name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Bonds</td>
+        <td>80%</td>
+        <td>Vanguard Bond Index Funds</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Gold</td>
+        <td>5%</td>
+        <td>GLD</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Stocks</td>
+        <td>5%</td>
+        <td>MSCI World Index Futures</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Real Estate</td>
+        <td>5%</td>
+        <td>Dow Jones Real Estate Futures</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Currency</td>
+        <td>5%</td>
+        <td>US Dollar/USDX</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+{% else %}
+<p><h2 style="text-align: center;">Please go to Main and continue...</h2></p>
+<hr style="background-color: black; margin-left: 35px; margin-right: 35px;">
+{% endif %}
+
+{% endblock jumbotron %}

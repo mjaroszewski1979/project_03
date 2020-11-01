@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row mt-4 mb-3">
+            <div class="col-4" id="box">
+            <div class="card text-white bg mb-1 mt-1 ml-2" style="max-width: 600px;">
+                <div class="row p-2">
+                    <div class="col-md-5">
+                    <img src="static/images/seaborn.png" width="230px" height="230px" class="card-img ml-2 mt-1 mb-1 p-1" alt="...">
+                    </div>
+                    <div class="col-md-7">
+                    <div class="card-body">
+                        <a href="https://github.com/mjaroszewski1979/Data-analysis-and-visualization-with-Python/blob/master/Using%20Matplotlib%20and%20Seaborn%20to%20display%20data%20downloaded%20with%20Yahoo%20Finance%20API..ipynb" target="_blank">
+                        <h5 class="card-title">Using Matplotlib and Seaborn to display data downloaded with Yahoo Finance API.</h5>
+                        </a>
+                        <p class="card-text">Visualizations for quantitative metrics applied to 'MSCI PL' and 'S&P 500'.</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-4" id="box">
+            <div class="card text-white bg mb-1 mt-1 ml-2" style="max-width: 600px;">
+                <div class="row p-2">
+                    <div class="col-md-5">
+                    <img src="static/images/newplot.png" width="230px" height="230px" class="card-img ml-2 mt-1 mb-1 p-1" alt="...">
+                    </div>
+                    <div class="col-md-7">
+                    <div class="card-body">
+                        <a href="https://nbviewer.jupyter.org/github/mjaroszewski1979/Data-analysis-and-visualization-with-Python/blob/1ca7bbfee9ee7f9546f582c52686da678edddf99/Web%20scraping%20and%20interactive%20charts%20with%20Plotly%20and%20Cufflinks.ipynb" target="_blank">
+                        <h5 class="card-title">Web scraping and interactive charts with Plotly and Cufflinks.</h5>
+                        </a>
+                        <p class="card-text">Plotting Berkshire Hathaway equally weighted index daily percent change.</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-4" id="box">
+            <div class="card text-white bg mb-1 mt-1 ml-2" style="max-width: 600px;">
+                <div class="row p-2">
+                    <div class="col-md-5">
+                    <img src="static/images/gini.png" width="230px" height="230px" class="card-img ml-2 mt-1 mb-1 p-1" alt="...">
+                    </div>
+                    <div class="col-md-7">
+                    <div class="card-body">
+                        <a href="https://github.com/mjaroszewski1979/Data-analysis-and-visualization-with-Python/blob/master/Visualising%20Gini%20index%20from%20FRED%20API%20with%20Seaborn..ipynb" target="_blank">
+                        <h5 class="card-title">Visualising Gini index from FRED API with Seaborn.</h5>
+                        </a>
+                        <p class="card-text">Graphical representation of data for Poland and other european countries regarding distribution of income.</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <hr style="background-color: black; width: 90%; text-align: center;">
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-3">
+            <form class="form-container mt-2 mb-2" action="/form" method="POST">
+                <div class="form-group">
+                <label for="exampleInputName">Name</label>
+                <input type="text" class="form-control" placeholder="Please enter your name" name='name'>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Please enter your email address">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputMessage">Message</label>
+                    <input type="text" class="form-control" placeholder="Please leave your message here">
+                </div>
+                <br/>
+                <button type="submit" class="btn btn-dark btn-block">Contact me</button>
+                </form>
+                
+            </div>
+
+        </div>
+    </div>
+
+{% endblock content %}
+
